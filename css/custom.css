@@ -1,0 +1,196 @@
+.page {
+    background: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.logo-apps {
+    height: 60px;
+}
+
+.toolbar-center {
+    height: 65px;
+    width: 90%;
+    border-radius: 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    background: #34495e;
+}
+
+.toolbar-inner .tab-link {
+    color: white;
+}
+
+.toolbar-inner .tab-link .icon {
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+.toolbar-inner .tab-link .tabbar-label {
+    display: none;
+    transition: all 0.3s;
+}
+
+.toolbar-inner .tab-link-active .tabbar-label {
+    display: block;
+}
+
+.toolbar-inner .tab-link:not(.tab-link-active) .icon {
+    font-size: 36px;
+}
+
+.toolbar-inner .tab-link-active .icon {
+    color: #34495e;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 6px;  /* Tambahkan jarak antara ikon dan label */
+}
+
+.icon-wrapper .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    z-index: 1;
+}
+
+.besar-icon80 {width: 80%;} 
+.besar-icon100 {width: 100%;}
+.font18 {font-size: 18px;} 
+.font22 {font-size: 22px;} 
+.radius15 {border-radius: 15px;}
+.pad10 {padding: 10px;}
+.ml-15 {margin-left: 15px;} 
+.mr-15 {margin-right: 15px;}
+
+.tabs .tab {
+    display: none; /* Semua tab disembunyikan secara default */
+}
+
+.tabs .tab.tab-active {
+    display: block; /* Hanya tab aktif yang ditampilkan */
+}
+
+.page-home {
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* .page {
+    background: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.logo-apps {
+    height: 60px;
+}
+
+.toolbar-center {
+    height: 65px;
+    width: 90%;
+    border-radius: 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    background: #34495e;
+}
+
+.toolbar-inner .tab-link {
+    color: white;
+}
+
+.toolbar-inner .tab-link .icon {
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+.toolbar-inner .tab-link .tabbar-label {
+    display: none;
+    transition: all 0.3s;
+}
+
+.toolbar-inner .tab-link-active .tabbar-label {
+    display: block;
+}
+
+.toolbar-inner .tab-link:not(.tab-link-active) .icon {
+    font-size: 36px;
+}
+
+.toolbar-inner .tab-link-active .icon {
+    color: #34495e;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.icon-wrapper .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    z-index: 1;
+}
+
+.besar-icon80 { width: 80%; } 
+.besar-icon100 {
+    width: 50px;
+    height: 50px;
+}
+.font18 { font-size: 18px; } 
+.font22 {
+    font-size: 22px;
+    margin-bottom: 10px;
+} 
+.radius15 { border-radius: 15px; }
+.pad10 { padding: 10px; }
+.ml-15 { margin-left: 15px; } 
+.mr-15 { margin-right: 15px; }
+
+.tabs .tab {
+    display: none;
+}
+
+.tabs .tab.tab-active {
+    display: block;
+}
+
+.page-home {
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.card {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.demo-swiper-multiple {
+    padding: 10px 0;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid a {
+    flex: 1;
+    text-align: center;
+} */
