@@ -33,13 +33,6 @@
         <div class="tabs">
             <div id="tab-beranda" class="page-content tab tab-active">
                 <div class="card" style="margin-top: 0px;">
-                    <swiper-container pagination class="demo-swiper-multiple ml-15 mr-15 color-white" space-between="50" data-loop="true" autoplay>
-                        <swiper-slide class="radius15 text-color-white" style="background: #b71c1c;">Iklan 1</swiper-slide>
-                        <swiper-slide class="radius15 text-color-white" style="background: #01579b;">Iklan 2</swiper-slide>
-                        <swiper-slide class="radius15 text-color-white" style="background: #880e4f;">Iklan 3</swiper-slide>
-                        <swiper-slide class="radius15 text-color-white" style="background: #006064;">Iklan 4</swiper-slide>
-                        <swiper-slide class="radius15 text-color-white" style="background: #ff6f00;">Iklan 5</swiper-slide>
-                    </swiper-container>
                     <div class="card-content card-content-padding text-align-center">
                         <font class="font22" id="bloktglskr">Senin, 23 September 2024<br/>16:34:44</font>
                         <div class="row grid grid-cols-5 grid-gap" style="margin-top: 15px;">
@@ -61,110 +54,70 @@
                         </div>
                     </div>
                 </div>
+                <swiper-container pagination class="demo-swiper-multiple ml-15 mr-15 color-white" space-between="50" data-loop="true" autoplay>
+                    <swiper-slide class="radius15 text-color-white" style="background: #b71c1c;">Iklan 1</swiper-slide>
+                    <swiper-slide class="radius15 text-color-white" style="background: #01579b;">Iklan 2</swiper-slide>
+                    <swiper-slide class="radius15 text-color-white" style="background: #880e4f;">Iklan 3</swiper-slide>
+                    <swiper-slide class="radius15 text-color-white" style="background: #006064;">Iklan 4</swiper-slide>
+                    <swiper-slide class="radius15 text-color-white" style="background: #ff6f00;">Iklan 5</swiper-slide>
+                </swiper-container>
+                <div class="row grid grid-cols-2" style="margin-top: -35px;">
+                    <a href="#" class="text-align-center font18 text-color-black">
+                        <div class="card text-align-center">
+                            <div class="card-content card-content-padding">
+                                <img src="img/bag.png" class="besar-icon80" /><br/>Order<br/>Produk
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="text-align-center font18 text-color-black">
+                        <div class="card text-align-center">
+                            <div class="card-content card-content-padding">
+                                <img src="img/maps.png" class="besar-icon80" /><br/>Toko<br/>Sekitar
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="row grid grid-cols-2" style="margin-top: -10px;">
+                    <a href="#" class="text-align-center font18 text-color-black">
+                        <div class="card text-align-center">
+                            <div class="card-content card-content-padding">
+                                <img src="img/note.png" class="besar-icon80" /><br/>Aduan<br/>Layanan
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="text-align-center font18 text-color-black">
+                        <div class="card text-align-center">
+                            <div class="card-content card-content-padding">
+                                <img src="img/notif.png" class="besar-icon80" /><br/>Notifikasi<br/>Info
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
             </div>
             <div id="tab-transaksi" class="page-content tab">
-                <p>Konten transaksi akan muncul di sini.</p>
+                <div class="card skeleton-text skeleton-effect-wave">
+                    <div class="card-header">Card Header</div>
+                    <div class="card-content card-content-padding">
+                        Percobaan Teks untuk div Skeleton Ghost
+                        Percobaan Teks untuk div Skeleton Ghost
+                        Percobaan Teks untuk div Skeleton Ghost
+                    </div>
+                    <div class="card-footer">Card Footer</div>
+                </div>
             </div>
             <div id="tab-riwayat" class="page-content tab">
-                <p>Konten riwayat akan muncul di sini.</p>
-            </div>            
+                <div class="card skeleton-text skeleton-effect-wave">
+                    <div class="card-header">Card Header</div>
+                    <div class="card-content card-content-padding">
+                        Percobaan Teks untuk div Skeleton Ghost
+                        Percobaan Teks untuk div Skeleton Ghost
+                        Percobaan Teks untuk div Skeleton Ghost
+                    </div>
+                    <div class="card-footer">Card Footer</div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
-
-<!-- <template>
-    <div class="page page-home">
-        
-        <div class="navbar">
-            <div class="navbar-inner">
-                <div class="left"></div>
-                <div class="title">
-                    <img src="img/xshoper.png" class="logo-apps" />
-                </div>
-                <div class="right">
-                    <a href="#" class="link"><i class="icon f7-icons color-white">ellipsis_vertical</i></a>
-                </div>
-            </div>
-        </div>
-        
-        
-        <div class="toolbar tabbar tabbar-icons toolbar-bottom toolbar-center">
-            <div class="toolbar-inner">
-                <a href="#tab-beranda" class="tab-link tab-link-active">
-                    <i class="icon f7-icons">house</i>
-                    <span class="tabbar-label">Beranda</span>
-                </a>
-                <a href="#tab-transaksi" class="tab-link">
-                    <div class="icon-wrapper">
-                        <i class="icon f7-icons">money_dollar</i>
-                        <span class="badge color-red">5</span>
-                    </div>
-                    <span class="tabbar-label">Transaksi</span>
-                </a>
-                <a href="#tab-riwayat" class="tab-link">
-                    <i class="icon f7-icons">calendar</i>
-                    <span class="tabbar-label">Riwayat</span>
-                </a>
-            </div>
-        </div>
-
-       
-        <div class="tabs">
-            
-            <div id="tab-beranda" class="page-content tab tab-active">
-                
-                <div class="card ml-15 mr-15" style="margin-top: 10px;">
-                    <div class="card-content card-content-padding text-align-center">
-                        <font class="font22" id="bloktglskr">
-                            Senin, 23 September 2024<br />16:34:44
-                        </font>
-                        <div class="row grid grid-cols-5 grid-gap" style="margin-top: 15px;">
-                            <a href="#" id="btnmap">
-                                <img src="img/gmaps.png" class="besar-icon100" />
-                            </a>
-                            <a href="#" id="btnfb">
-                                <img src="img/facebook.png" class="besar-icon100" />
-                            </a>
-                            <a href="#" id="btnig">
-                                <img src="img/instagram.png" class="besar-icon100" />
-                            </a>
-                            <a href="#" id="btnwa">
-                                <img src="img/whatsapp.png" class="besar-icon100" />
-                            </a>
-                            <a href="#" id="btntw">
-                                <img src="img/twitter.png" class="besar-icon100" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="card ml-15 mr-15" style="margin-top: 15px;">
-                    
-                    <div class="swiper-container demo-swiper-multiple color-white">
-                        
-                        <div class="swiper-wrapper">
-                            
-                            <div class="swiper-slide radius15 text-color-white" style="background: #b71c1c;">Iklan 1</div>
-                            <div class="swiper-slide radius15 text-color-white" style="background: #01579b;">Iklan 2</div>
-                            <div class="swiper-slide radius15 text-color-white" style="background: #880e4f;">Iklan 3</div>
-                            <div class="swiper-slide radius15 text-color-white" style="background: #006064;">Iklan 4</div>
-                            <div class="swiper-slide radius15 text-color-white" style="background: #ff6f00;">Iklan 5</div>
-                        </div>
-                        
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-            
-            <div id="tab-transaksi" class="page-content tab">
-                <p>Konten transaksi akan muncul di sini.</p>
-            </div>
-
-            
-            <div id="tab-riwayat" class="page-content tab">
-                <p>Konten riwayat akan muncul di sini.</p>
-            </div>
-        </div>
-    </div>
-</template> -->

@@ -52,6 +52,9 @@ var app = new Framework7({
     placementId: 'pltd4o7ibb9rc653x14',
   },
   navbar: {
-    mdCenterTitle: true
+    mdCenterTitle: true,
+    hideOnPageScroll: true,
+    showOnPageScrollTop: true,
+    showOnPageScrollEnd: false
   },
 });
